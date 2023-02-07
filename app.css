@@ -1,0 +1,99 @@
+html, body {        
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: rgb(79, 116, 134);
+    font-family: "Nunito", sans-serif;
+}
+
+h2{
+    color: #704426;
+    font-weight: 300;
+}
+
+#mainNavbar{
+    font-size: 1.5rem;
+    font-weight: 200;
+    background-color: rgb(73, 102, 117);
+}
+
+#mainNavbar .nav-link{
+    color: white;
+}
+
+#mainNavbar .nav-link:hover{
+    color:rgb(50, 44, 14);
+}
+
+#mainNavbar .navbar-brand {
+    color:rgb(50, 44, 14);
+    font-weight: 290;
+    font-size: 1.55rem;
+}
+
+#cafeName{
+    color: aliceblue;
+
+}
+
+#cafeName span{
+    color: #764a30;
+}
+
+#cafeName h1{
+    color: aliceblue;
+    font-weight: 290;
+    font-size: 4.55rem;
+}
+
+#CoffeeIcon{
+    width: 60px;
+    height: 60px;
+}
+
+.lead{
+    color: aliceblue;
+    font-weight: 100;
+    line-height: 2;
+}
+
+.content{
+    margin: 10px;
+}
+
+.link-secondary{
+    color: darkblue;
+}
+
+@media (max-width: 1299px){
+    #cafeName h1{
+        font-size: 4rem;
+    }
+    #About h2{
+        font-size: 1.35rem;
+    }
+    #About p{
+        font-size: 1.15rem;
+    }
+}
+
+@media (max-width: 1210px){
+    #cafeName h1{
+        font-size: 3.55rem;
+    }
+    #About p{
+        font-size: 0.95rem;
+    }
+    #CoffeeIcon{
+        width: 50px;
+        height: 50px;
+    }
+}
+
+@media (max-width: 900px){
+    #cafeName h1{
+        font-size: 2.55rem;
+    }
+}
